@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+  background-color: #000000;
+  color: white;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #6368f1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #9da5f9;
+  color: black;
+}
+
+li.completed {
+  text-decoration: line-through;
+  background-color: #8cf3a4;
+}
+
+li.hidden {
+  visibility: hidden; /* Change to visibility to maintain layout */
+}
+
+
+
+.hidden-completed {
+  display: none;
+}
