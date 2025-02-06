@@ -64,11 +64,11 @@ li {
 
 li.completed {
   text-decoration: line-through;
-  background-color: #8cf3a4;
+  background-color: #f94f0b;
 }
 
 li.hidden {
-  visibility: hidden; /* Change to visibility to maintain layout */
+  visibility: hidden; 
 }
 
 

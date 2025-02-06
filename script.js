@@ -33,7 +33,7 @@ addTaskBtn.addEventListener('click', () => {
     addTaskBtn.disabled = true;
 
     completeBtn.addEventListener('click', () => {
-      listItem.classList.toggle('completed'); // Use class to manage completed state
+      listItem.classList.toggle('completed'); 
     });
 
     deleteBtn.addEventListener('click', () => {
@@ -47,7 +47,7 @@ toggleCompletedBtn.addEventListener('click', () => {
   
   tasks.forEach(task => {
     if (task.classList.contains('completed')) {
-      task.classList.toggle('hidden'); // Use class to manage visibility
+      task.classList.toggle('hidden');
     }
   });
 
